@@ -46,7 +46,9 @@ def find_the_cheese(array)# code an argument here
   # Use .include?
 # (1..10).find { |i| i % 5 == 0 && i % 7 == 0 }   #=> nil
 
-  find_the_cheese().first
-    
+  array.find do |fist_element|
+    first_element.each (cheese_types)
+  
+  end
   
 end
